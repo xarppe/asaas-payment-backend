@@ -1,0 +1,35 @@
+{
+  "name": "asaas-pix-backend",
+  "version": "1.0.0",
+  "description": "Minimal Asaas PIX checkout backend",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "asaas",
+    "pix",
+    "payment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.5",
+    "@types/cors": "^2.8.14",
+    "typescript": "^5.1.6",
+    "tsx": "^3.12.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
